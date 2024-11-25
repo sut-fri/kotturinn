@@ -27,7 +27,7 @@ let knits = [
     "itemTitle" : "scarfs",
     "category" : "k&#246;tturinn",
     "id" : "scarfs",
-    "description" : "I tend not to knit many scarfs because of their uneventful build. Scarfs were the first garment I learned how to knit nearly two decades ago; although I have come so far in my knitting capabilities, it is sometimes enjoyable to sit back and make a simple scarf while watching a movie. (Twilight is my favorite!)",
+    "description" : "I tend not to knit many scarfs because of their uneventful build. They were the first garment I learned how to knit nearly two decades ago. Although I have come a long way in my knitting capabilities, it is sometimes enjoyable to sit back and make a simple scarf while watching a movie. (Twilight is my favorite!)",
     "image" : "images/scarfs/logo.png",
     "image2" : "images/scarfs/scarf2.png",
     "image3" : "images/scarfs/scarf.png",
