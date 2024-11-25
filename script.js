@@ -108,10 +108,12 @@ function createProjectPage(incomingJSON) {
   newProjectImage3.src = incomingJSON["image3"];
   newProjectElement.appendChild(newProjectImage3);
 
-  let newProjectImage4 = document.createElement("IMG");
-  newProjectImage4.classList.add("projectHeroImage4");
-  newProjectImage4.src = incomingJSON["image4"];
-  newProjectElement.appendChild(newProjectImage4);
+  if ("image4"){
+    let newProjectImage4 = document.createElement("IMG");
+    newProjectImage4.classList.add("projectHeroImage4");
+    newProjectImage4.src = incomingJSON["image4"];
+    newProjectElement.appendChild(newProjectImage4);
+  }
 
   let newProjectDescription = document.createElement("P");
   newProjectDescription.classList.add("description");
