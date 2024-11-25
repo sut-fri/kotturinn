@@ -7,7 +7,7 @@ let knits = [
     "itemTitle" : "toques",
     "category" : "k&#246;tturinn",
     "id" : "toques",
-    "description" : "The knitted toque is ",
+    "description" : "The knitted toque is a staple of Nordic tradition and fashion. Hats are my expertise; I have designed and knitted many over the years. Creating the color pattern is certainly the most time consuming and number intensive step, but also the focal of my creativity, so I tend to take my time and enjoy the process.",
     "image" : "images/toques/pumkinhat.jpg",
     "image2" : "images/toques/pang.jpeg",
     "image3" : "images/toques/cat.png",
