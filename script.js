@@ -30,7 +30,8 @@ let knits = [
     "description" : "Cosmic fugue concept of the number one Orion's sword at the edge of forever intelligent beings a very small stage in a vast cosmic arena. A very small stage in a vast cosmic arena a very small stage in a vast cosmic arena something incredible is waiting to be known muse about intelligent beings the carbon in our apple pies.",
     "image" : "images/scarfs/logo.png",
     "image2" : "images/scarfs/scarf2.png",
-    "image3" : "images/scarfs/scarf.png"
+    "image3" : "images/scarfs/scarf.png",
+    "image4" : "images/scarfs/twilight.png"
   }
 ];
 
@@ -108,12 +109,10 @@ function createProjectPage(incomingJSON) {
   newProjectImage3.src = incomingJSON["image3"];
   newProjectElement.appendChild(newProjectImage3);
 
-  if ("image4"){
-    let newProjectImage4 = document.createElement("IMG");
-    newProjectImage4.classList.add("projectHeroImage4");
-    newProjectImage4.src = incomingJSON["image4"];
-    newProjectElement.appendChild(newProjectImage4);
-  }
+  let newProjectImage4 = document.createElement("IMG");
+  newProjectImage4.classList.add("projectHeroImage4");
+  newProjectImage4.src = incomingJSON["image4"];
+  newProjectElement.appendChild(newProjectImage4);
 
   let newProjectDescription = document.createElement("P");
   newProjectDescription.classList.add("description");
